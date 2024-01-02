@@ -229,7 +229,7 @@
         "Are there installment options for course payments?"
       ],
       "responses": [
-        "The fees for our courses vary based on different programs. For more detailed information regarding the course fees, please visit our official website: [SciAstra Courses](https://www.sciastra.com/courses/)"
+        "The fees for our courses vary based on different programs. For more detailed information regarding the course fees, please visit our official website.<a href='https://www.sciastra.com/courses/'>Link</a>"
       ]
     },
     {
@@ -245,7 +245,7 @@
         "How responsive is your support team?"
       ],
       "responses": [
-        "You can reach us through the following channels:\nEmail: support@sciastra.com, Download SciAstra app to reach us there too or Chat on WhatsApp with 7570020363"
+        "You can reach us through the following channels:Email: support@sciastra.com, Download SciAstra app to reach us there too or Chat on WhatsApp with 7570020363"
       ]
     }
   ]
