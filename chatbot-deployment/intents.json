@@ -8,18 +8,36 @@
         "How are you",
         "Is anyone there?",
         "Hello",
-        "Good day"
+        "Good day",
+        "Greetings",
+        "What's up",
+        "Hey there",
+        "Hi, how's it going?",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Hi, is this SciAstra?"
       ],
       "responses": [
         "Hey :-)",
-        "Hello, thanks for visiting",
+        "Hello",
         "Hi there, what can I do for you?",
         "Hi there, how can I help?"
       ]
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Farewell",
+        "Take care",
+        "Until next time",
+        "See you soon",
+        "Goodnight",
+        "Bye-bye"
+      ],
       "responses": [
         "See you later, thanks for visiting",
         "Have a nice day",
@@ -28,19 +46,33 @@
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!",
+        "Appreciate it",
+        "Thanks a bunch",
+        "Thank you very much",
+        "Thanks so much",
+        "Thanks a million"
+      ],
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
     {
       "tag": "items",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "Which does sciAstra do?",
+        "What do u do?",
+        "What is your motive?",
+        "Tell me about your mission",
+        "Explain your purpose",
+        "Why was SciAstra created?",
+        "What is the philosophy of SciAstra?",
+        "Can you tell me more about SciAstra?"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "We, at SciAstra, believe that education should not just be about cracking competitive exams. It should not be a race; rather, studying should be fun for the love of science. We are helping students to think differently instead of just memorizing the concepts to qualify for competitive exams."
       ]
     },
     {
@@ -49,35 +81,171 @@
         "Do you take credit cards?",
         "Do you accept Mastercard?",
         "Can I pay with Paypal?",
-        "Are you cash only?"
+        "Are you cash only?",
+        "What payment methods are accepted?",
+        "How can I pay for your services?",
+        "Tell me about the payment options",
+        "Are there any discounts or payment plans available?",
+        "Can I pay in installments?"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
+        "We accept VISA, Mastercard, and Paypal",
         "We accept most major credit cards, and Paypal"
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "courses",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "Competitive exams u prepare for?",
+        "Courses offered?",
+        "Do u prepare for ISI?",
+        "Tell me about your exam preparation courses",
+        "What subjects do you cover?",
+        "Can you list the exams for which you provide coaching?",
+        "Tell me more about the PCMB subjects",
+        "Which board exams do you cover?"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "At SciAstra, we make students love science & prepare all 4 subjects- PCMB. You can crack IAT, NEST, JEE, NEET, Boards & so on. We guide students who want to become scientists and pursue research by helping them secure admissions in the top colleges for the same like IISER, NISER, CEBS, ICAR, CMI, IISc Bangalore, ISI, CMI, IACS, etc."
       ]
     },
     {
-      "tag": "funny",
+      "tag": "college",
       "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
+        "What is special about colleges that offer research?",
+        "Facilities of colleges",
+        "Are there good placements by these colleges",
+        "Tell me about the research-focused colleges",
+        "What makes your recommended colleges unique?",
+        "Do these colleges offer scholarships?",
+        "Can you elaborate on the college admission process?"
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "Some of the Facilities of these colleges are Full Scholarship (up to Rs. 4 lakhs) with Zero/Minimum Fees providing Top International Ph.D. Placements along with Top Faculties/Scientists in a world-class infrastructure"
+      ]
+    },
+    {
+      "tag": "selections",
+      "patterns": [
+        "Your past selections?",
+        "Previous year Results",
+        "Tell me about your success stories",
+        "How many students have been selected in the past?",
+        "Can you share some notable achievements of SciAstra students?",
+        "Tell me about the success rate of SciAstra"
+      ],
+      "responses": [
+        "1000 + Selections, 500 + IISERs, 100 + in NISER/CEBS, 30 + in IACS, 12 + in ISI/CMI"
+      ]
+    },
+    {
+      "tag": "mock_tests",
+      "patterns": [
+        "How can I practice for exams?",
+        "Tell me about mock tests",
+        "Practice tests available?",
+        "Mock test available",
+        "Explain your test preparation methods",
+        "What types of questions are included in your mock tests?",
+        "Can you provide some details about the structure of your practice exams?",
+        "Tell me about the difficulty level of your mock tests"
+      ],
+      "responses": [
+        "We provide practice through the latest pattern mock tests to help you prepare effectively for exams like IAT, NEST, JEE, NEET, and Boards. You can access both live and recorded classes, interact with mentors, and participate in doubt classes and discussions, all within our app."
+      ]
+    },
+    {
+      "tag": "connect_mentors",
+      "patterns": [
+        "Can I connect with mentors?",
+        "How to reach mentors?",
+        "Instant chat with mentors available?",
+        "Tell me about mentor interactions",
+        "Can I ask doubts directly to the mentors?",
+        "How responsive are the mentors?",
+        "Tell me about the mentorship program"
+      ],
+      "responses": [
+        "Yes, you can connect instantly with our mentors through the app. We offer live and recorded classes, interaction sessions, doubt classes, and discussions. Feel free to reach out to our mentors for any assistance you need in your studies."
+      ]
+    },
+    {
+      "tag": "latest_pattern",
+      "patterns": [
+        "Tell me about the latest exam patterns",
+        "What are the latest exam trends?",
+        "Changes in exam patterns?",
+        "Keep me updated on exam patterns",
+        "Can you provide information on the current exam patterns?",
+        "What should I know about the evolving exam patterns?",
+        "Tell me about any recent changes in exam structures"
+      ],
+      "responses": [
+        "Stay updated with the latest exam patterns by practicing our mock tests. We ensure that you are well-prepared for the evolving patterns of exams such as IAT, NEST, JEE, NEET, and more."
+      ]
+    },
+    {
+      "tag": "book_session",
+      "patterns": [
+        "How to book a session?",
+        "Book a session",
+        "Schedule a personal session",
+        "I want to schedule a session",
+        "Can you help me with session booking?",
+        "Tell me about the process of scheduling a session",
+        "Can I choose my preferred mentor for the session?",
+        "How flexible is the session scheduling?"
+      ],
+      "responses": [
+        "Booking a session is easy! You can schedule a 15-minute personal interaction phone call with our top mentors from IISc, IISERs, IITs, NISER, and more. Choose a date and time that suits you best."
+      ]
+    },
+    {
+      "tag": "benefits",
+      "patterns": [
+        "What are the benefits of joining SciAstra?",
+        "Advantages of SciAstra",
+        "Tell me about SciAstra benefits",
+        "Why should I choose SciAstra?",
+        "How can SciAstra benefit my education?",
+        "Tell me about the unique advantages of SciAstra",
+        "What sets SciAstra apart from other educational platforms?",
+        "How can I excel in my studies with SciAstra's help?"
+      ],
+      "responses": [
+        "One-to-one live classes with top mentors from IISc, IISERs, IITs, NISER, etc., a customized study plan tailored to your needs, face-to-face doubt clearing sessions, and exclusive access to a private WhatsApp group for continuous support and assistance from our mentors. It's a personalized approach to help you excel in your studies."
+      ]
+    },
+    {
+      "tag": "course_fees",
+      "patterns": [
+        "What is the fee for the courses?",
+        "How much do the courses cost?",
+        "Tell me about course fees",
+        "Can you provide information on course pricing?",
+        "Are there any scholarships available?",
+        "Tell me about financial assistance options",
+        "Can I get discounts on course fees?",
+        "Are there installment options for course payments?"
+      ],
+      "responses": [
+        "The fees for our courses vary based on different programs. For more detailed information regarding the course fees, please visit our official website: [SciAstra Courses](https://www.sciastra.com/courses/)"
+      ]
+    },
+    {
+      "tag": "contact_info",
+      "patterns": [
+        "How can I contact SciAstra?",
+        "What is your contact information?",
+        "Tell me your support email and phone number",
+        "Give me your support details",
+        "How do I reach out to you?",
+        "Can I contact you for general queries?",
+        "Tell me about your customer support",
+        "How responsive is your support team?"
+      ],
+      "responses": [
+        "You can reach us through the following channels:\nEmail: support@sciastra.com, Download SciAstra app to reach us there too or Chat on WhatsApp with 7570020363"
       ]
     }
   ]
